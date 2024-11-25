@@ -296,8 +296,8 @@ counterpart, it must annotate an `int32`.
 type that is UTC normalized and has `MICROS` precision. Like the logical type
 counterpart, it must annotate an `int64`.
 
-Despite there is no exact corresponding ConvertedType for local time semantic,
-in order to support forward compatibility with those libraries, which annotated
+Although there is no exact corresponding ConvertedType for local time semantics,
+in order to support forward compatibility with libraries which annotated
 their local time with legacy `TIME_MICROS` and `TIME_MILLIS` annotation,
 Parquet writer implementation *must* annotate local time with legacy annotations too,
 as shown below.
